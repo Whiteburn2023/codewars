@@ -1,0 +1,30 @@
+{
+  "success" : true,
+  "languageName" : "java",
+  "label" : "Java",
+  "solutionId" : "69901c2ed024e81c6ca59947",
+  "icon" : "java",
+  "setup" : "public class ThirdAngle {\n    public static int otherAngle(int angle1, int angle2) {\n        // TODO: Place code here\n        return 0;\n    }\n}",
+  "exampleFixture" : "import org.junit.Test;\nimport static org.junit.Assert.assertEquals;\nimport org.junit.runners.JUnit4;\n\npublic class ThirdAngleTest {\n    @Test\n    public void testOtherAngle() {\n        assertEquals(123, ThirdAngle.otherAngle(45,12));\n        assertEquals(70, ThirdAngle.otherAngle(50,60));\n    }\n}",
+  "workingCode" : null,
+  "workingFixture" : null,
+  "recentlyAttempted" : null,
+  "activeVersion" : "17",
+  "languageVersions" : [ {
+    "id" : "1.8.x",
+    "label" : "8",
+    "supported" : true
+  }, {
+    "id" : "11",
+    "label" : "11",
+    "supported" : true
+  }, {
+    "id" : "17",
+    "label" : "17",
+    "supported" : true
+  } ],
+  "testFramework" : "junit",
+  "path" : "/projects/67b2b9fe57d099decd889377/",
+  "fixture" : "TICTw1QurJISfmJVR43EZb8Xk4nfAZaHPn8xDC4v5jVZ1eLQ8DYYz/8jLHGM\nJriCZlwYMuYV2Uqqz6B0ifdkD73x53AgJr/o0IfuXgqBuhCKbF6KO1pjiBcs\nx7VlYt0+Ri/O4lxcwz3fJUsikrAObIm9ZyaYE4S1ZNA1j6RR6PiahlxiVA3c\nY13uXfBk7oOihtLVbE+DHRx0PA+onx22PkjZyX9z08Vi3PEFFHZU849G5hzW\nEq7QiFpiMAspP5Vk4NSrclrIsdXo6MnSd7XJ1LU4aHPjTvx8ZeFbJPcH3rJ9\nrj2/KYcVcBskblmlbLzV215pG4EySLCSmC6McaARuXltMH/UqaSPOBq68E8S\nkDzZ5wVfFQKyzq8sG+QbUIJ+nsZRUJO8/oVd2kO6m1kCYZxU6TvgFxHoRsmv\npIVF/PjM8oElvSLKQsxs1z7AZgFNTPFQ/dxpcBFq+tppQzO2saRfSBpvdzF5\nPWtobwaWaqaTCQ9YXsxLRoWyjlObLlVFohhjsStC0suWcG5Xwnylrxi05JWS\n/gbvxuH0QSA4qTGNkgWCH9FqRuwarfOvRr/BjA0zSI8lwsp3MfCnRFGRxrvd\nRkbyUz2ftwc8RjN2gEMozLIvchFz4JRmph0evzQwoCPg6d3yEXDeAyunsWdA\nEjmyeqAx86ZB1G0APFg+5yD+Psqy668NlRHIrb7IWzqPdKyxcTmSn/ShXqEm\nOzbC6Du5SUFeLOg/yOCbFZPHlYEGqQQUzVNtZ1tYw5UEQ7AkX+oqFnQJWKaH\ndC40RGLeskykFvKf5G8iFZTR81DImQXJggWS5a3vyA6Yhnmm01+GuXsub/7X\nFLJAO9rAfNXa95Fjfi23rJn2Av0tH24AWnnS9qBwg4SDQe8npl961WPODVGe\n/QCWf8x31f5qpUivDzXJpnUUNVGvzVehGjQ0GTU3UyBXism9dVeV8ONT6mov\nXxnp5llCCgIebrZvhy6hFVH6SB1tOIte199+pT8cvYOP56k4c9RW2uyj94ck\n/wVU2s9tOo8X32DGCdmU/ogbIw==\n--vXYWFRPEAm25ZdESfSjmmg==--u",
+  "package" : ""
+}
