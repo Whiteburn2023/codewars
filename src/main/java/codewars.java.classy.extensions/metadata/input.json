@@ -1,0 +1,30 @@
+{
+  "success" : true,
+  "languageName" : "java",
+  "label" : "Java",
+  "solutionId" : "69d5f5ee962bc3cb31c510c5",
+  "icon" : "java",
+  "setup" : "public class Cat extends Animal {\n  public Cat(String name) {\n    super(name);\n  }\n  \n  // your code here\n}",
+  "exampleFixture" : "import org.junit.jupiter.api.Test;\nimport static org.junit.jupiter.api.Assertions.assertEquals;\nimport static org.junit.jupiter.api.Assertions.assertInstanceOf;\n\n// TODO: Replace examples and use TDD by writing your own tests\n\nclass SampleTest {\n  @Test\n  void mrWhiskers() {\n    Cat cat = new Cat(\"Mr Whiskers\");\n    assertEquals(\"Mr Whiskers meows.\", cat.speak());\n    assertInstanceOf(Animal.class, cat, \"Your Cat class should extend Animal\");\n  }\n\n  @Test\n  void lamp() {\n    Cat cat = new Cat(\"Lamp\");\n    assertEquals(\"Lamp meows.\", cat.speak());\n  }\n  @Test\n  void moneyBags() {\n    Cat cat = new Cat(\"$$Money Bags$$\");\n    assertEquals(\"$$Money Bags$$ meows.\", cat.speak());\n  }\n}\n",
+  "workingCode" : null,
+  "workingFixture" : null,
+  "recentlyAttempted" : null,
+  "activeVersion" : "17",
+  "languageVersions" : [ {
+    "id" : "1.8.x",
+    "label" : "8",
+    "supported" : false
+  }, {
+    "id" : "11",
+    "label" : "11",
+    "supported" : false
+  }, {
+    "id" : "17",
+    "label" : "17",
+    "supported" : true
+  } ],
+  "testFramework" : "junit",
+  "path" : "/projects/69d5f5ee5ad3ebbdfc269581/",
+  "fixture" : "7JnqkJb69kbjsFDaqtoGHZDcoUmimutggM9hl5qeeBE1db8ESUm2+DI4wZ4N\nAVtXTj95Sdymdx6nF5xHTtvx3MXVGRmHeN5VdrY4CCcs2GhF4XtnLgUw6I7Q\n+GfWUu/8Bi/PX9Y/6F7y31Dvpvzm0uxN79spSPdDeSxowYdYny4rsgxXdQhx\nYEwZLb8/U/0PVtqHJsqsST7jtN4vZ5BBi+D7lWHYogun+9XE9UMzf6Lr/xE1\nv9nDq64S7OL5wlEv3WT3M6T3hdwHq2mh+6hzDqa2eu+De81O9spEZ0v2IjGA\nCG3qA1skJg7/7JE3W8QpinFKcPURFYOaBaw4s0Rwe0PKq7y7R18Wv8UsTNj/\nws7MisQ7iFEX0sQ1vvIIiPQPNcalio98VxkOxj9oH81WtKZl9VURLFq+1g3q\nrQ+K2sIBhyWfSPYnvyuOkE6PtT9T9NN/297nQz9rzjvwtwAxXmJGI33uRRvw\nCAuYN4l3rncH+6H780Aq2VpbsyENGmdyfH6ddx/JpRlX3/xulFkX/B4f909I\nrIAMre7ImKZATnM98wiz9cfC9C7FQhP1Pq4bMAtpvFO9/mMhuZMBdXnOqsPH\n0M7MjUdbkgd8SBVQ5OodmCQD8LTqR5E4TFYsvPeKi2iA3Pit7521dEM8xR5R\nM75JmODg2gXvgoshVYQoDQUNi8QqnHXLJ4t11zeRVfPqGpO0HoTvjukGBzoc\nePG9aE6MrvkE4yRAnzUWG/8tADOW09huJ7oZWPOzfNFoPN7r1IgP/Ajr2qhD\nm10W8U1wF6W0iwQSeigxQ2/kgCVkeWnt58EpfR6g+bvVyjglc2wgaaZ8VSZV\npTKcgh6MwOTHgQTy28nNRdsdL04l9imw3sOtWWppcnKIYfacGtRJYQUdysft\nDwQO+M6bj3tfTkJt+3BM0RYSTQ3FKD26pOLl/aZuBizNNX15v+870BKxh6EF\nOrvfxVxe5/ic7SY3m9KcK4rRbRdw/XY3A9+ryoWXfvLpMHoOG/X8QCFSb5tJ\nfRH4w1rlTVHRW9C0BHhHSbIn6mBmRykxC68+L/H4WiY74Yx/kG+8vkw/a5lR\nZ4VeLPHJ0nSP3Ngsxw14YVhEIymkbh9UzoEhPpiiCeT9nk0jYzF/H5FuZm9/\n9n7aWFNqSBGdTJE1xIA/3S+IAqbzGLmufjCN4hdSx/8mvhxRRe7odY0fm1i1\n4IsqrQ157/vX88gV1DKKxW8VOEV2jUoInOWOu2q2BBb5rhtQOZZod4DcbDTw\nkG6HYb4XJ4IdSuG1lYLMX76VUWYD7q3FA+95DSB3jZRIZqmEmXeApEMk7OZ/\nOdHqqq7jlPBI01x6G/7w0f7useXma2A6n2f4r66rXRia00XjEiHtl2WQ3+oM\nrbGeUPKG8EhSk6t5bWmMxdPYmkwmE2FDfGW1JUmcpb+lmNwhshroNAobcs4e\n1ZGEAm62qfulbcO6DbTqFdBSSRNKeZRmXcjVqZVS5rzFNtylkCir/f/SDln4\nQivAgj/k+c6sPylpuzMhN7axgm1b3qEbhpjWY6j85eiA7vB5h14cODyzeACN\nG3as2LYprTEUU396sf1/UIRhMoJgV3LoSS1rGi+gt8TU+THAxaZdXDc52Dzi\ncKaTm+OlsMfxAiqgFAPTdYzc/CphB82UPeLgUAWhvVY4Z590U/pQXcAHbmBQ\ns8jFgCO6OCn8xvNsWYYxF9FHVSBPXo9CjMizlAPMyGirMMs+KyseujT6YMVF\nnIm01ZitAqMtA2/1D/DaD+qVLShhZxsoHv8W0gNICFImrgfp1B+meUaIYlVa\nTtBVsk4uKd5UzhoOZnflVwonxEwGS0PgpZL2tFI8TfhMR/cWsRUPyH6ZMGJr\n4ri/4dltDFvOx+tJKjNOGM6nvQyaDWzHsPo0E78TpFtz73noBotlPlD1Rh7p\nJMuixdXF29XpZnkYJHbmdgFvglTTrCANzV+lhiLvwOU8mnaqSr8Vn2VhpgzZ\nsQlpo7+Q4KlR9Y0JyW8xIw5EL4oYaHCJurmhw0MvCh1IVHimT4i/AL4ssK0s\nUnisxwHbW4i8m1k2CJv00oqAufxJB8fGUWiFpdfhW82jObxEgveYVgYqekeS\ndZlSmcprfQaeINqphPQe8LcS2H0xiEFtaVnrxPNhRgGJ+5DYCTj3DQBCqt0V\n4g43JUOr1liuZNfR6cwdSNekdseuaOG4o35EYnNh+xcWy+k3CBvb5QXg9q7b\nCFABuZHNv448/241kI7AxUrYopqeW5DQUbcsCXmGCI24DQxc0SOEDY8aC01u\nKMAnrPPSc3pJm94ShhSius1+Vh8Mfi+oyBO+A40MmHTRrlS5ew0Z/sOmJvGT\nehTXUyfbJ16IpPxsw5vvtLnuox/k1+/a0esZJGjvBU1DKt6nYoHL8VLw2nLY\naozZVyX12M0=\n--W1N6jJrOM04k5Tj88o5nfA==--u",
+  "package" : "mXihz89LtCZC8yes6AQcySv5V7ZkxVXi+E4EUuuGe1RY9mjNd0uFrLYzJKQs\ncPG4rGAPOPuAhWSBKhcVeIQ7kN1Y4zOM8tscDsZzlf4TTkVhlFUpQnra82Lj\nui+mWPxFKraKo7ZyYxdDEE+09nha7S1hnQmpnj41mbzUZxCpmerpyEDL4A09\njGsIsTKX6lEfStymXmGIn/1YwnFVaJTYH1GNxOFKgyxR/ZepkJSHJ3aQtaRt\nOTJZSmbOAl6/HdOJ\n--iugIKPyBocixKnpEx3sknA==--u"
+}

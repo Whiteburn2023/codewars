@@ -1,0 +1,19 @@
+{
+  "id" : "5834fec22fb0ba7d080000e8",
+  "name" : "BASIC: Making Six Toast.",
+  "slug" : "basic-making-six-toast",
+  "url" : "https://www.codewars.com/kata/5834fec22fb0ba7d080000e8",
+  "category" : "algorithms",
+  "languages" : [ "javascript", "coffeescript", "ruby", "python", "typescript", "csharp", "c", "cobol", "crystal", "julia", "swift", "scala", "java" ],
+  "path" : "/projects/69d606c69b2aade5609025c3/",
+  "selectedLanguage" : "java",
+  "description" : "# Story:\n\nYou are going to make toast fast, you think that you should make multiple pieces of toasts and once. So, you try to make 6 pieces of toast.\n\n___\n\n# Problem:\n\nYou forgot to count the number of toast you put into there, you don't know if you put exactly six pieces of toast into the toasters.\n\nDefine a function that counts how many more (or less) pieces of toast you need in the toasters. Even though you need more or less, the number will still be positive, not negative.\n\n## Examples:\n\nYou must return the number of toast the you need to put in (or to take out). In case of `5` you can still put `1` toast in:\n\n```\n5 --> 1\n```\n\nAnd in case of `12` you need `6` toasts less (but not `-6`):\n\n```\n12 --> 6\n```\n\n___\n\nGood luck!",
+  "rank" : {
+    "id" : -8,
+    "name" : "8 kyu",
+    "color" : "white"
+  },
+  "tags" : [ "Algorithms" ],
+  "workUrl" : "https://www.codewars.com/kata/5834fec22fb0ba7d080000e8/train/java",
+  "completed" : true
+}

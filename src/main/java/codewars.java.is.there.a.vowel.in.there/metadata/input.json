@@ -1,0 +1,30 @@
+{
+  "success" : true,
+  "languageName" : "java",
+  "label" : "Java",
+  "solutionId" : "69d5cc2b3233cf8747c50cc3",
+  "icon" : "java",
+  "setup" : "import java.util.List;\nimport java.util.stream.Collectors;\n\npublic class VowelMapper {\n\n    public static List<Object> isVow(List<Integer> a) {\n      return null;\n    }\n}",
+  "exampleFixture" : "import org.junit.jupiter.api.Test;\nimport static org.junit.jupiter.api.Assertions.*;\nimport java.util.List;\n\npublic class VowelMapperTest {\n\n    private void doTest(List<Integer> input, List<Object> expected) {\n        List<Object> actual = VowelMapper.isVow(input);\n        assertEquals(expected, actual, \"Failed for input: \" + input);\n    }\n\n    @Test\n    public void sampleTests() {\n        doTest(\n            List.of(118,117,120,121,117,98,122,97,120,106,104,116,113,114,113,120,106),\n            List.of(118,\"u\",120,121,\"u\",98,122,\"a\",120,106,104,116,113,114,113,120,106)\n        );\n\n        doTest(\n            List.of(101,121,110,113,113,103,121,121,101,107,103),\n            List.of(\"e\",121,110,113,113,103,121,121,\"e\",107,103)\n        );\n    }\n\n}\n",
+  "workingCode" : null,
+  "workingFixture" : null,
+  "recentlyAttempted" : null,
+  "activeVersion" : "17",
+  "languageVersions" : [ {
+    "id" : "1.8.x",
+    "label" : "8",
+    "supported" : false
+  }, {
+    "id" : "11",
+    "label" : "11",
+    "supported" : false
+  }, {
+    "id" : "17",
+    "label" : "17",
+    "supported" : true
+  } ],
+  "testFramework" : "junit",
+  "path" : "/projects/69d5cc2bb4db2d25652691be/",
+  "fixture" : "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\nFOqRTm//5UAe/HIidfM=\n--tFCa9RYVRNe649fi4FR2Rg==--u",
+  "package" : ""
+}

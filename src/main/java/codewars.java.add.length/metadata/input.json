@@ -1,0 +1,30 @@
+{
+  "success" : true,
+  "languageName" : "java",
+  "label" : "Java",
+  "solutionId" : "69d60ea35ad3ebbdfc2697a4",
+  "icon" : "java",
+  "setup" : "public class AddLength{\n  \n  public static String[] addLength(String str){\n    return new String[0];\n  }\n  \n}",
+  "exampleFixture" : "import java.util.Arrays;\nimport org.junit.jupiter.api.*;\nimport static org.junit.jupiter.api.Assertions.assertArrayEquals;\nimport static java.util.stream.Collectors.joining;\n\npublic class SolutionTest {\n\n    private static void doTest(String str, String[] expected) {\n        String[] actual = AddLength.addLength(str);\n        String      msg = \"addLength(\\\"\" + str + \"\\\") returned an incorrect result.\\n\\nExpected: [\" \n                           + Arrays.stream(expected).map(s -> \"\\\"\" + s + \"\\\"\").collect(joining(\", \")) \n                           + \"]\\nBut got : [\"\n                           + Arrays.stream(actual).map(s -> \"\\\"\" + s + \"\\\"\").collect(joining(\", \"))\n                           + \"]\\n\\n\";\n        assertArrayEquals(expected, actual, msg);\n    }\n\n    @Test @DisplayName(\"Sample Tests\")\n    public void testSampleCases() {\n        doTest(\"apple ban\", new String[]{\"apple 5\", \"ban 3\"});\n        doTest(\"you will win\", new String[]{\"you 3\", \"will 4\", \"win 3\"});\n        doTest(\"you\", new String[]{\"you 3\"});\n        doTest(\"y\", new String[]{\"y 1\"});\n    }\n}\n",
+  "workingCode" : null,
+  "workingFixture" : null,
+  "recentlyAttempted" : null,
+  "activeVersion" : "17",
+  "languageVersions" : [ {
+    "id" : "1.8.x",
+    "label" : "8",
+    "supported" : false
+  }, {
+    "id" : "11",
+    "label" : "11",
+    "supported" : true
+  }, {
+    "id" : "17",
+    "label" : "17",
+    "supported" : true
+  } ],
+  "testFramework" : "junit",
+  "path" : "/projects/69d60ea3f0936ef33d0459f9/",
+  "fixture" : "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\nlrC65fz3kksbxWxbv5bO/CY=\n--797XPuBb+r/V99IzDAPt6g==--u",
+  "package" : ""
+}

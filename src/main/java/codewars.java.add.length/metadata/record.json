@@ -1,0 +1,19 @@
+{
+  "id" : "559d2284b5bb6799e9000047",
+  "name" : "Add Length",
+  "slug" : "add-length",
+  "url" : "https://www.codewars.com/kata/559d2284b5bb6799e9000047",
+  "category" : "reference",
+  "languages" : [ "javascript", "python", "ruby", "coffeescript", "elixir", "csharp", "rust", "d", "typescript", "scala", "java" ],
+  "path" : "/projects/69d60ea3f0936ef33d0459f9/",
+  "selectedLanguage" : "java",
+  "description" : "What if we need the length of the words separated by a space to be added at the end of that same word and have it returned as an array?\n\n**Example(Input --> Output)**\n```\n\"apple ban\" --> [\"apple 5\", \"ban 3\"]\n\"you will win\" -->[\"you 3\", \"will 4\", \"win 3\"]\n```\n\nYour task is to write a function that takes a String and returns an Array/list with the length of each word added to each element .\n\n**Note:** String will have at least one element; words will always be separated by a space. \n",
+  "rank" : {
+    "id" : -8,
+    "name" : "8 kyu",
+    "color" : "white"
+  },
+  "tags" : [ "Arrays", "Lists", "Fundamentals" ],
+  "workUrl" : "https://www.codewars.com/kata/559d2284b5bb6799e9000047/train/java",
+  "completed" : true
+}

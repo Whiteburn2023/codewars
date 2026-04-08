@@ -1,0 +1,19 @@
+{
+  "id" : "5977618080ef220766000022",
+  "name" : "USD => CNY",
+  "slug" : "usd-equals->-cny",
+  "url" : "https://www.codewars.com/kata/5977618080ef220766000022",
+  "category" : "reference",
+  "languages" : [ "javascript", "ruby", "typescript", "python", "c", "rust", "cobol", "csharp", "scala", "coffeescript", "java" ],
+  "path" : "/projects/69d609de61f56349da269887/",
+  "selectedLanguage" : "java",
+  "description" : "Create a function that converts US dollars (USD) to Chinese Yuan (CNY) . The input is the amount of USD as an integer, and the output should be a string that states the amount of Yuan followed by 'Chinese Yuan'\n\n### Examples (Input -> Output)\n```\n15  -> '101.25 Chinese Yuan'\n465 -> '3138.75 Chinese Yuan'\n```\n\nThe conversion rate you should use is 6.75 CNY for every 1 USD. All numbers should be represented as a string with 2 decimal places. (e.g. \"21.00\" NOT \"21.0\" or \"21\") \n",
+  "rank" : {
+    "id" : -8,
+    "name" : "8 kyu",
+    "color" : "white"
+  },
+  "tags" : [ "Fundamentals" ],
+  "workUrl" : "https://www.codewars.com/kata/5977618080ef220766000022/train/java",
+  "completed" : true
+}

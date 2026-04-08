@@ -1,0 +1,19 @@
+{
+  "id" : "56170e844da7c6f647000063",
+  "name" : "Drink about",
+  "slug" : "drink-about",
+  "url" : "https://www.codewars.com/kata/56170e844da7c6f647000063",
+  "category" : "reference",
+  "languages" : [ "javascript", "python", "coffeescript", "csharp", "fsharp", "php", "ruby", "cpp", "haskell", "cobol", "crystal", "julia", "c", "typescript", "scala", "lua", "java" ],
+  "path" : "/projects/69d6126b89a76d9b68902659/",
+  "selectedLanguage" : "java",
+  "description" : "- Kids drink toddy.\n- Teens drink coke.\n- Young adults drink beer.\n- Adults drink whisky.\n\nMake a function that receive age, and return what they drink.\n\n**Rules:**\n\n- Children under 14 old.\n- Teens under 18 old.\n- Young under 21 old.\n- Adults have 21 or more.\n\n**Examples: (Input --> Output)**\n\n```\n13 --> \"drink toddy\"\n17 --> \"drink coke\"\n18 --> \"drink beer\"\n20 --> \"drink beer\"\n30 --> \"drink whisky\"\n```\n",
+  "rank" : {
+    "id" : -8,
+    "name" : "8 kyu",
+    "color" : "white"
+  },
+  "tags" : [ "Fundamentals" ],
+  "workUrl" : "https://www.codewars.com/kata/56170e844da7c6f647000063/train/java",
+  "completed" : true
+}

@@ -1,0 +1,30 @@
+{
+  "success" : true,
+  "languageName" : "java",
+  "label" : "Java",
+  "solutionId" : "69d6126c962bc3cb31c513a9",
+  "icon" : "java",
+  "setup" : "public class Drinks{\n  \n  public static String peopleWithAgeDrink(int age){\n    return \"\";\n  }\n}",
+  "exampleFixture" : "import org.junit.jupiter.api.*;\nimport static org.junit.jupiter.api.Assertions.assertEquals;\n\npublic class SolutionTest {\n\n    private static void doTest(int age, String expected) {\n        assertEquals(expected, Drinks.peopleWithAgeDrink(age),\n            \"peopleWithAgeDrink(\" + age + \") returned an incorrect result.\\n\\n\"\n        );\n    }\n\n    @Test @DisplayName(\"Sample Tests\")\n    public void testSampleCases() {\n        doTest(13, \"drink toddy\");\n        doTest(14, \"drink coke\");\n        doTest(16, \"drink coke\");\n        doTest(17, \"drink coke\");\n        doTest(18, \"drink beer\");\n        doTest(20, \"drink beer\");\n        doTest(21, \"drink whisky\");\n        doTest(30, \"drink whisky\");\n    }\n}",
+  "workingCode" : null,
+  "workingFixture" : null,
+  "recentlyAttempted" : null,
+  "activeVersion" : "17",
+  "languageVersions" : [ {
+    "id" : "1.8.x",
+    "label" : "8",
+    "supported" : false
+  }, {
+    "id" : "11",
+    "label" : "11",
+    "supported" : true
+  }, {
+    "id" : "17",
+    "label" : "17",
+    "supported" : true
+  } ],
+  "testFramework" : "junit",
+  "path" : "/projects/69d6126b89a76d9b68902659/",
+  "fixture" : "slwIaPFFxC/4RfdwFvsbynP3By0SA/9JdqzmAwFwtBTmhJFnxo5MRSFydw/z\nwvl/LvnxbphAAXlU7ZCxXlE8FAVNrWqB2YLBdVOzmKFVfkzboAjaIHcFkIOe\nxc+o2BFp5fGG6xwDBl7KnTIT/D8+Gq7GFGQGGew678ngInKd2Cue/VNSLsC9\ndu+gZ0dO0r5QnZblsRk/5NnlO0mfo5X41kUdGi1+UPiduUk6RSSpPDcq+C6L\n1HitUeb1IFUxh0xbcglCE8yCxbeekp3DkVwAXMDsl4VWqH8GVqkBQ6NpsLlW\nKVz42Xu4+ENwgpnfPYgwbKcszFjYGDTRgO36rCKoJWecn09Dcw3odmt68rqh\nQjHIp0aYbHPqloA01h/uGd5BkRno4DPvSCK71Nc9gM1EwExo1Cca5P0o75JU\nZQR3UJhfhw3uKupMQGVHt0n6OmFISRjlU6cdBcAb1HQSqUZ75BgnXooIG05/\nSl0ZSxIvksNk94YMEDNO1a0znG8AMK2Rqu/zdTuJrLtPC2BE59k82rMTo/jE\njnebgX1aQbeteQSpA8bdEQISmf8jAEqwFTt7TIOULQYljp8QH13wYsPTdI4k\ntyi5MAmVFmcUVGVlrtE02b6SAOSkWjqeTbdT/tGXLUDjfgCUFP9y2fpmhZMp\nKkxXKDG9PXzEhP91/3kSDVt/MnjjBmQBjL9jxGKRU7kaS08dxo90Zb/YG9aE\njAPOAHMCHjJpmy1GM5VDkf+dhOk9+AtRw+qQJ1qVZdLGMqEBz96LJBsZYWPe\ntCl/wsTOlVHWla6RmRP3huRFjvE8Wnv0PhbqJpvnlmtbKFyKwlEgNidHHWAW\nHZX++8e9ljWsIz+YmqSq/Fit9kIVZoJzEdR7rQ5gfzvxsxLlzOTnBgveKpUA\nUI2WzPLdr3z8QJnxN/t+xhaO99+W9kx6c6klx7xWmQOwKgng8lr5SCcnkqng\nj9DhkAiuCK+7NZaA7wbqK9wJcJxWBO3/E2JtOPU5Wal2NmvL68amFmyI8A1r\n/hURyWzcMxc12lHy7hgSBwIx4WNgrZ3fW7aWU6dLZ4QsaWqLgdcA6ekcxM3A\nmlhANIrMYyww0wOK+FZ2CIvI8uthuWehibELHqJO+74J78MsZDhk4733+1Od\npIe2ilvnGqBCxAp0emGLQoi8w5pYO/3TOvU6oam6S0TBE9UuO5b6/KzY0Hqd\nh5+sERVvhILZcPVyGKsoBoagSz2uGnr3Xfn6bB2bJcOMSzwta2fHx5GxvnQ9\npjXVeMUzzeaZI1HGgnoPSpi+uUNsE+WZmV5eYcIzVWlrJFn0mjGKJyK1JB5J\nbmZE5M881EOLqo7xZCulx0Q1Ubrnd7wBuDWfuqs/kYVDRt7rAJWAHR9ls4IN\nQLkuWf/pRHirjWdj+mXthmejuSpISpjIC9lv8Ox9RwVEYag3vYZozm5Tk4vr\n1FJF7aHwjuiEd8ujokIhREP/JMei8AXVtyigsyyjSQSbiGzT2PxW3aGLR3eE\nfhwkJs7JLm38NmwcKTa8teiYvXvNpa1hWsq854QZwaAz4fr/T9DVBonLxMhE\na5TDBqq/BoxIwW+B/y2/7NBJIMfcdvI9IVketYAHM9D7tNtVPf8UBpMwWQW9\nVDq6lt+eOD5RNLZKzOEf+at2HtJ8h0VQ8bOkOp5TXw7IaYfsoM8Rdp4ltbeO\nEtZoSCbOuj2Q1fGkAQr8GgaX4dRFSCDEwalu2v1VctXb5eEB6IjlZLHa1Erv\nx0yUNh17nw==\n--pD6VQSCs+dM0hLQOub2oKQ==--u",
+  "package" : ""
+}
